@@ -35,3 +35,10 @@ body{
 .title h3{
     font-size: 2rem;
 }
+
+footer{
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}

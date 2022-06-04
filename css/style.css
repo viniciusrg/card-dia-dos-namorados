@@ -1,0 +1,37 @@
+body{
+    height: auto;
+    width: 100%;
+    /*background-color: #415a77;*/
+    background-color: #000000;
+    font-family: 'Rubik', sans-serif;
+    color: #e0e1dd;
+    background-image: url("https://images.unsplash.com/photo-1518563795073-6b72265ad862?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1365&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -10%;
+}
+
+.main{
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title h1, h2, h3{
+    text-align: center;
+    margin-top: 7%;
+}
+
+.title h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.title h2{
+    font-size: 1.4rem;
+}
+
+.title h3{
+    font-size: 2rem;
+}
